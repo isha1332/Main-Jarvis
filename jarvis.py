@@ -79,7 +79,7 @@ class MainThread(QThread):
                 speak(results)
             elif 'how are you' in self.query:
                 speak("i am fine and you?")
-                ans = takecommand()
+                ans = self.STT()
                 speak("okay")
             elif 'hello' in self.query:
                 wish()
