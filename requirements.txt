@@ -1,0 +1,6 @@
+pyttsx3
+speechrecogniton
+opencv_python
+wikipedia
+PyQt5
+pyqt5-tools
