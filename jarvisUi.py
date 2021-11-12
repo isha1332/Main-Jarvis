@@ -20,13 +20,13 @@ class Ui_jarvisUi(object):
         self.label = QtWidgets.QLabel(self.centralwidget)
         self.label.setGeometry(QtCore.QRect(-4, -10, 1421, 901))
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("C:/Users/ishag/OneDrive/Desktop/Projects/Main-Jarvis-with-ui/gif/7LP8.gif"))
+        self.label.setPixmap(QtGui.QPixmap("Main-Jarvis-with-ui/7LP8.gif"))# path with normal slash
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(self.centralwidget)
         self.label_2.setGeometry(QtCore.QRect(0, -30, 421, 231))
         self.label_2.setText("")
-        self.label_2.setPixmap(QtGui.QPixmap("C:/Users/ishag/OneDrive/Desktop/Projects/Main-Jarvis-with-ui/gif/T8bahf.gif"))
+        self.label_2.setPixmap(QtGui.QPixmap("Main-Jarvis-with-ui/T8bahf.gif"))# path with normal slash
         self.label_2.setScaledContents(True)
         self.label_2.setObjectName("label_2")
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
