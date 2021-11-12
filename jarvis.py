@@ -205,10 +205,10 @@ class Main(QMainWindow):
             self.ui.pushButton_2.clicked.connect(self.close)
 
         def startTask(self):
-            self.ui.movie = QtGui.QMovie("C:/Users/ishag/OneDrive/Desktop/Projects/Main-Jarvis-with-ui/gif/7LP8.gif")
+            self.ui.movie = QtGui.QMovie("Main-Jarvis-with-ui/7LP8.gif")# path with normal slash
             self.ui.label.setMovie(self.ui.movie)
             self.ui.movie.start()
-            self.ui.movie = QtGui.QMovie("C:/Users/ishag/OneDrive/Desktop/Projects/Main-Jarvis-with-ui/gif/T8bahf.gif")
+            self.ui.movie = QtGui.QMovie("Main-Jarvis-with-ui/T8bahf.gif")# path with normal slash
             self.ui.label_2.setMovie(self.ui.movie)
             self.ui.movie.start()
             timer = QTimer(self)
