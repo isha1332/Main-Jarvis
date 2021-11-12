@@ -77,6 +77,12 @@ class MainThread(QThread):
                 results = wikipedia.summary(self.query, sentences=2)
                 speak("according to wikipedia")
                 speak(results)
+            elif 'how are you' in self.query:
+                speak("i am fine and you?")
+                ans = takecommand()
+                speak("okay")
+            elif 'hello' in self.query:
+                wish()
             elif 'open camera' in self.query:
                 cap = cv2.VideoCapture(0)
                 while True:
